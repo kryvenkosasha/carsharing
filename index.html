@@ -3,40 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <nav>
-          <a href=""
-            ><div class="logo-bg"><img class="logo-img" src="" alt="" /></div
-          ></a>
+      <nav>
+        <div class="container">
+          <div class="navigation-container">
+            <a href=""
+              ><div class="logo-bg">
+                <img
+                  class="logo-img"
+                  src="./images/logo-car.png"
+                  alt="logo"
+                /></div
+            ></a>
+  
+            <ul class="navigation-list">
+              <li class="navigation"><a href="" class="navigation-link">О НАС</a></li>
+              <li class="navigation"><a href="" class="navigation-link">АВТОПАРК</a></li>
+              <li class="navigation"><a href="" class="navigation-link">ОТЗЫВЫ</a></li>
+              <li class="navigation"><a href="" class="navigation-link">УСЛОВИЯ</a></li>
+              <li class="navigation"><a href="" class="navigation-link">КОНТАКТЫ</a></li>
+            </ul>
+  
+            <address>
+              <a href="tel:+380505055500" class="contact">+38 (050) 505 55 00</a>
+            </address>
+          </div>
+        </div>
+      </nav>
 
-          <ul>
-            <li class="navigation">О НАС</li>
-            <li class="navigation">АВТОПАРК</li>
-            <li class="navigation">ОТЗЫВЫ</li>
-            <li class="navigation">УСЛОВИЯ</li>
-            <li class="navigation">КОНТАКТЫ</li>
-          </ul>
-
-          <address>
-            <a href="tel:+380505055500" class="contact">+38 (050) 505 55 00</a>
-          </address>
-        </nav>
-
-        <div class="hero">
+      <section class="hero">
+        <div class="container">
           <div class="hero-info">
             <h1>Каршеринг в Киеве LUX автомобили</h1>
             <p>Закажи эксклюзивный автомобиль</p>
             <p>через мобильное приложение в любой точке города</p>
             <button type="button">скачать приложение</button>
-          </div>
 
-          <div class="hero-img"></div>
+            <div class="hero-description">
+              <ul class="hero-description-list">
+                <li class="hero-description-item">
+                  <img src="./images/icon-1.png" alt="icon" />
+                  <p>Более 300 автомобилей в вашем распоряжении</p>
+                </li>
+
+                <li class="hero-description-item">
+                  <img src="./images/icon-2.png" alt="icon" />
+                  <p>Дешевле такси и собственного транспорта</p>
+                </li>
+
+                <li class="hero-description-item">
+                  <img src="./images/icon-3.png" alt="icon" />
+                  <p>Лучшие автомобили в любой точке города</p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
+
+        <div class="hero-car">
+          <img src="./images/car-1.png" alt="car" />
+          <ul class="hero-car-descr-list">
+            <li class="hero-car-descr-item">
+              <p>4 грн/мин</p>
+            </li>
+
+            <li class="hero-car-descr-item">
+              <p>50 тыс.км.пробег</p>
+            </li>
+
+            <li class="hero-car-descr-item">
+              <p>5 мест</p>
+            </li>
+          </ul>
+
+          <div class="hero-car-links">
+            <ul class="hero-car-links-list">
+              <li class="hero-car-links-item">
+                <a href="">Условия аренды автомобиля </a>
+              </li>
+
+              <li class="hero-car-links-item">
+                <a href="">Публичный договор</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </header>
   </body>
 </html>

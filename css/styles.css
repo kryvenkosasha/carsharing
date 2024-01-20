@@ -1,0 +1,104 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #332208;
+  width: 100%;
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  margin-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img{
+    margin: 0;
+}
+
+.container {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navigation-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav {
+  background-color: #332208;
+
+}
+
+.header {
+}
+.container {
+}
+.logo-bg {
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+}
+.logo-img {
+}
+
+.navigation-list{
+    display: flex;
+    gap: 40px;
+}
+
+.navigation-link{
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px; /* 125% */
+  font-weight: 300;
+}
+.contact {
+      color: #fff;
+  font-size: 16px;
+  line-height: 20px; /* 125% */
+  font-weight: 300;
+  font-style: normal;
+}
+.hero {
+}
+.hero-info {
+}
+.hero-description {
+}
+.hero-description-list {
+}
+.hero-description-item {
+}
+.hero-car {
+}
+.hero-car-descr-list {
+}
+.hero-car-descr-item {
+}
+.hero-car-links {
+}
+.hero-car-links-list {
+}
+.hero-car-links-item {
+}
